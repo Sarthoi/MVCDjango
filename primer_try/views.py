@@ -31,8 +31,8 @@ def template_uno(self):
     document = plantilla.render(diccionario)
     return HttpResponse(document)
 
-def curso(self):
-    curso= Curso(nombre="Python", camada="54485")
-    curso.save()
-    documentxt = f"--->Curso:{curso.nombre}  Camada: {curso.camada}"
-    return HttpResponse(documentxt)
+# def curso(self):
+#     curso= Curso(nombre="Python", camada="54485")
+#     curso.save()
+#     documentxt = f"--->Curso:{curso.nombre}  Camada: {curso.camada}"
+#     return HttpResponse(documentxt)
